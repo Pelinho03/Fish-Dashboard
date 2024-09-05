@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-PT" data-theme="light">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FishFlow</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+            integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"/>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"/>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap"
+            rel="stylesheet"/>
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="icon" href="img/logo_redes.png" />
+    </head>
+    <body>
+        
+        <!--ecrã de loading-->
+        <div class="loading loading--hide">
+            <i class="fa fa-spinner loading_spinner"></i>
+        </div>
+
+        <div class="navbar">
+            <!--logo da página-->
+            <a href="dashboard.html" title="FishFlow Dashboard">
+                <img
+                    class="logo"
+                    viewBox="0 0 144 18"
+                    width="144"
+                    src="img/logo.svg"
+                    alt="Fis"
+                />
+            </a>
+
+            <!--Bt de trocar de ligh para dark mode-->
+            <div class="switch">
+                <div class="lua">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <span class="switch_track"></span>
+                <div class="sol">
+                    <i class="fas fa-sun"></i>
+                </div>
+             
+            </div>
+        </div>
+
+        <!--container que terá todas as abas do projeto-->
+        <div class="container">
+            <!--barra com pequisa e os peixes já definidos-->
+            <div class="peixe-select">
+                <!--palavra peixe e icon de seta-->
+                <div class="peixe-select-toggle">
+                    <span class="peixe-select-toggle_peixe-selected"
+                        >Peixes</span>
+                    <i class="fas fa-chevron-down peixe-select-toggle_icon"></i>
+                </div>
+
+                <!--lista com os diferentes peixes e barra de pesquisa-->
+                <div class="peixe-select-list">
+                    <input
+                        type="text"
+                        placeholder="Procurar Pexeis..."
+                        class="peixe-select-list_search"
+                    />
+                    <ul>
+                        <li class="peixe-select-list_item" data-id="peixe-agua-fria">Água Fria</li>
+                        <li class="peixe-select-list_item" data-id="peixe-goldfish">Goldfish</li>
+                        <li class="peixe-select-list_item" data-id="peixe-colisa">Colisa</li>
+                        <li class="peixe-select-list_item" data-id="peixe-tetra-neon">Tetra neon</li>
+                        <li class="peixe-select-list_item" data-id="peixe-coridora">Coridora</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--Caixa de iluminação-->
+            <section class="status">
+                <div class="status_icon status_icon--luz">
+                    <i class="fa fa-lightbulb"></i>
+                </div>
+                <div class="info">
+                    <span class="info_total info_total--luz"></span>
+                    <h2 class="info_label">Luz</h2>
+                </div>
+            </section>
+
+            <!--Caixa de pH-->
+            <section class="status">
+                <div class="status_icon status_icon--ph">
+                    <i class="fas fa-hand-holding-water"></i>
+                </div>
+                <div class="info">
+                    <span class="info_total info_total--ph"></span>
+                    <h2 class="info_label">pH</h2>
+                </div>
+            </section>
+
+            <!--Caixa de temperatura-->
+            <section class="status">
+                <div class="status_icon status_icon--temperatura">
+                    <i class="fas fa-thermometer-quarter"></i>
+                </div>
+                <div class="info">
+                    <span class="info_total info_total--temperatura"></span>
+                    <h2 class="info_label">Temperatura</h2>
+                </div>
+            </section>
+
+            <!--Caixa de turbidez-->
+            <section class="status">
+                <div class="status_icon status_icon--turbidez">
+                    <i class="fas fa-tint"></i>
+                </div>
+                <div class="info">
+                    <span class="info_total info_total--turbidez"></span>
+                    <h2 class="info_label">Turbidez</h2>
+                </div>
+            </section>
+
+            <section class="status2">
+                <div class="status_icon status_icon--descriçao">
+                    <i class="fas fa-fish"></i>
+                </div>
+                <div class="info">
+                    <h2 class="info_label">Descricão</h2>
+                    <span class="info_total info_desc info_total--descriçao"></span>
+                </div>
+            </section>
+
+            <!--caixa para o gráfico de luminosidade-->
+            <section class="data-box data-box--luz">
+                <h2 class="data-box_header">Luminosidade</h2>
+                <iframe class="ph_graph" src="https://app.chartbrew.com/chart/676324e6-55b3-45c1-b873-0fc055d1b4e5/embedded" allowTransparency="true" width="700" height="300" scrolling="no" frameborder="0" style="background-color: #ffffff"></iframe>  
+                <div class="data-box_body"></div>
+            </section>          
+
+            <!--caixa para o gráfico de valor de ph da água-->
+            <section class="data-box data-box--ph">
+                <h2 class="data-box_header">Valor de pH da água</h2>
+                <iframe class="ph_graph" src="https://app.chartbrew.com/chart/e8f0e12b-e014-4d59-b2c4-65e9f3feee0a/embedded" allowTransparency="true" width="700" height="300" scrolling="no" frameborder="0" ></iframe>
+                <p class="data-box_description"></p>
+                <div class="data-box_body"></div>
+            </section>
+
+            <!--caixa para o gráfico de temperatura-->
+            <section class="data-box data-box--temperatura">
+                <h2 class="data-box_header">Temperatura atual</h2>
+                <iframe class="ph_graph" src="https://app.chartbrew.com/chart/1359e6f7-2d62-46ac-9159-90f65779b853/embedded" allowTransparency="true" width="700" height="300" scrolling="no" frameborder="0" style="background-color: #ffffff"></iframe>               
+                 <p class="data-box_description"></p>
+                <div class="data-box_body"></div>
+            </section>
+
+            <!--caixa para o gráfico de turbidez-->
+            <section class="data-box data-box--turbidez">
+                <h2 class="data-box_header">Turbidez da água</h2>
+                <iframe class="ph_graph" src="https://app.chartbrew.com/chart/69e8aced-dcdb-49a8-849a-b1ddb4b8fee5/embedded" allowTransparency="true" width="700" height="300" scrolling="no" frameborder="0" style="background-color: #ffffff"></iframe>               
+                 <p class="data-box_description"></p>
+                <div class="data-box_body"></div>
+            </section>
+            </div>
+
+        <!--botão para o topo da página-->
+        <a class="btn" href="#top">
+            <i class="fas fa-arrow-circle-up"></i>
+        </a>
+
+        <!--rodapé simples-->
+        <footer>
+            <div class="footer-text">
+                <p class="footer-text__source">
+                    Projeto controlo da qualidade da água à cadeira de
+                    Planeamento e Gestão de Redes
+                </p>
+                <p class="footer-text__copyright">
+                    Desenvolvido por Paulo e João 2023 <br />
+                    <a href="#"> Projeto completo </a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="js/scripts.js"></script>
+        <script src="js/peixes.js"></script>
+        <!-- <script src="js/dados_peixe.js"></script> -->
+
+
+    </body>
+</html>

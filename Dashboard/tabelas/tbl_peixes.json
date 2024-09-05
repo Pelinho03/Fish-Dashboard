@@ -1,0 +1,34 @@
+{
+    "peixes": [
+      {
+        "nome": "Água fria",
+        "ph": 7.8,
+        "luminosidade": "Fraco",
+        "temperatura": 20
+      },
+      {
+        "nome": "Goldfish",
+        "ph": 8.0,
+        "luminosidade": "Média",
+        "temperatura": 25
+      },
+      {
+        "nome": "Colisa",
+        "ph": 7.4,
+        "luminosidade": "Média",
+        "temperatura": 28
+      },
+      {
+        "nome": "Tetra neon",
+        "ph": 7.0,
+        "luminosidade": "Fraco",
+        "temperatura": 28
+      },
+      {
+        "nome": "Coridora",
+        "ph": 7.5,
+        "luminosidade": "Média",
+        "temperatura": 27
+      }
+    ]
+  }

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-PT" data-theme="light">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FishFlow</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+            integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"/>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"/>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap"
+            rel="stylesheet"/>
+        <link rel="stylesheet" href="css/login.css" />
+        <link rel="icon" href="img/logo_redes.png" />
+    </head>
+<body>
+
+    <div class="navbar">
+        <!--logo da página-->
+        <a href="login.html" title="FishFlow Dashboard">
+            <img
+                class="logo"
+                viewBox="0 0 144 18"
+                width="144"
+                src="img/logo.svg"
+                alt="FishFlow"
+            />
+        </a>
+
+        <!--Bt de trocar de ligh para dark mode-->
+        <div class="switch">
+            <div class="lua">
+                <i class="fas fa-moon"></i>
+            </div>
+            <span class="switch_track"></span>
+            <div class="sol">
+                <i class="fas fa-sun"></i>
+            </div>
+            
+        </div>
+    </div>
+    
+    <!-- Seção para login -->
+    <section class="area_login">
+        <div class="login">
+            <div>
+                <img class="logo2" src="img/logo_negro_vetor.png" alt="FishFlow">
+            </div>
+
+            <form method="POST" action="php/login.php">
+                <h2 class="login_titulo">login</h2>
+                <input type="text" name="login" placeholder="Nome de utilizador" autofocus id="login" required>
+                <input type="password" name="senha" placeholder="Password" id="senha" required>
+                <input type="submit" name="entrar" value="Entrar" id="entrar">
+            </form>
+            <p>Ainda nao tens conta?<a href="registo.html">Criar conta</a></p>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-text">
+            <p class="footer-text__source">
+                Projeto controlo da qualidade da água à cadeira de
+                Planeamento e Gestão de Redes
+            </p>
+            <p class="footer-text__copyright">
+                Desenvolvido por Paulo e João 2023 <br />
+                <a href="#"> Projeto completo </a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+<script src="js/scripts.js"></script>
+</html>
