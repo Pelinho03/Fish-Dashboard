@@ -48,6 +48,15 @@ Aqui estão as tecnologias e ferramentas utilizadas no projeto:
 
 ---
 
+## 🛠️ Como Executar o Projeto
+
+1. **Clona o repositório**: `git clone https://github.com/Pelinho03/Fish-Dashboard.git`
+2. **Configura o ambiente de desenvolvimento**: Usa um servidor local como XAMPP, MAMP ou WampServer.
+3. **Coloca os arquivos do projeto** na pasta `htdocs` do XAMPP (ou pasta equivalente em outros servidores locais).
+4. **Acede à dashboard** através do navegador, navegando até `http://localhost/Fish-Dashboard/`.
+
+---
+
 ## 🙌 Contribuições
 
 Se tiveres sugestões ou comentários sobre o projeto, sinta-te à vontade para abrir uma **issue** ou fazer um **pull request**.
