@@ -58,8 +58,8 @@ Aqui estão algumas imagens das principais interfaces da plataforma:
 -   **Modo Escuro/Modo Claro**: Alterna entre modos de visualização para melhor conforto.
 
     <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
-      <img src="./assets_img/home1.png" alt="Login" width="45%"/>
-      <img src="./assets_img/home2.png" alt="Registo" width="45%"/>
+      <img src="./assets_img/home1a.png" alt="Login" width="45%"/>
+      <img src="./assets_img/home2a.png" alt="Registo" width="45%"/>
     </div>
 
 ---
