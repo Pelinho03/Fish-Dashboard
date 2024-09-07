@@ -1,6 +1,6 @@
 # 🚀 Plataforma de Gestão da Qualidade de Aquário
 
-Bem-vindo ao repositório **FishFlow Dashboard**! Este projeto, desenvolvido para a faculdade, é uma aplicação completa para monitorar e gerenciar a qualidade de um aquário doméstico. A plataforma inclui uma dashboard interativa que utiliza HTML, CSS, JavaScript, PHP e MySQL para registrar e verificar dados essenciais do aquário.
+Bem-vindo ao repositório **FishFlow Dashboard**! Este projeto, desenvolvido para a faculdade, é uma aplicação completa para monitorar e gerir a qualidade de um aquário doméstico. A plataforma inclui uma dashboard interativa que utiliza HTML, CSS, JavaScript, PHP e MySQL para registar e verificar dados essenciais do aquário.
 
 ---
 
@@ -25,7 +25,7 @@ Aqui estão as tecnologias e ferramentas utilizadas no projeto:
 ## 📈 Funcionalidades
 
 -   **Dashboard Interativa**: Interface para visualização dos dados do aquário.
--   **Gerenciamento de Dados**: Armazenamento e visualização dos dados de pH, temperatura, turbidez e luz para cada peixe.
+-   **Gestão de Dados**: Armazenamento e visualização dos dados de pH, temperatura, turbidez e luz para cada peixe.
 -   **Base de Dados de Utilizadores**: Utilização de MySQL para gerir o login e registo dos utilizadores.
 -   **Gráficos Dinâmicos**: Representação gráfica dos parâmetros do aquário ao longo do tempo.
 -   **Verificação de Conformidade**: Sistema de monitoramento que verifica se as condições do aquário estão de acordo com as exigências dos peixes.
@@ -35,7 +35,7 @@ Aqui estão as tecnologias e ferramentas utilizadas no projeto:
 ## 🎯 Objetivos do Projeto
 
 -   Desenvolver uma **dashboard interativa** para monitoramento do aquário.
--   Gerenciar e **visualizar dados dos peixes** e das condições do aquário.
+-   Gerir e **visualizar dados dos peixes** e das condições do aquário.
 -   Implementar **gráficos dinâmicos** para análise de dados.
 -   Criar um sistema de **verificação de conformidade** para garantir a qualidade do ambiente.
 -   Implementar um sistema de **login e registo** de utilizadores usando MySQL.
@@ -55,7 +55,7 @@ Aqui estão algumas imagens das principais interfaces da plataforma:
 
 ---
 
--   **Modo Escuro/Modo Claro**: Alterna entre modos de visualização para melhor conforto.
+-   **Dashboard**: Todos os dados referentes a vários peixes assim como gráficos detalhados, além da possibilidade de alternar entre modos de visualização para melhor conforto.
 
     <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
       <img src="./assets_img/home1a.png" alt="Login" width="45%"/>
