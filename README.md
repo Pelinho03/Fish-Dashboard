@@ -76,11 +76,11 @@ Aqui estão algumas imagens das principais interfaces da plataforma:
 
 ## 🛠️ Como Executar o Projeto
 
-1. **Clona o repositório**: `git clone https://github.com/Pelinho03/Fish-Dashboard.git`
+1. **Clona o repositório**: `git clone https://github.com/Pelinho03/FishFlow-Dashboard.git`
 2. **Configura o ambiente de desenvolvimento**: Usa um servidor local como XAMPP, MAMP ou WampServer.
 3. **Cria a base de dados**: Usa o MySQL para criar a base de dados de utilizadores para login e registo.
 4. **Coloca os arquivos do projeto** na pasta `htdocs` do XAMPP (ou pasta equivalente em outros servidores locais).
-5. **Acede à dashboard** através do navegador, navegando até `http://localhost/Fish-Dashboard/`.
+5. **Acede à dashboard** através do navegador, navegando até `http://localhost/FishFlow-Dashboard/`.
 
 ---
 
