@@ -1,6 +1,6 @@
 # 🚀 Plataforma de Gestão da Qualidade de Aquário
 
-Bem-vindo ao repositório **Plataforma de Gestão da Qualidade de Aquário**! Este projeto, desenvolvido para a faculdade, é uma aplicação completa para monitorar e gerenciar a qualidade de um aquário doméstico. A plataforma inclui uma dashboard interativa que utiliza HTML, CSS, JavaScript, PHP e MySQL para registrar e verificar dados essenciais do aquário.
+Bem-vindo ao repositório **FishFlow Dashboard**! Este projeto, desenvolvido para a faculdade, é uma aplicação completa para monitorar e gerenciar a qualidade de um aquário doméstico. A plataforma inclui uma dashboard interativa que utiliza HTML, CSS, JavaScript, PHP e MySQL para registrar e verificar dados essenciais do aquário.
 
 ---
 
